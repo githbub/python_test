@@ -1,5 +1,12 @@
 import time
 import datetime
-print "Current date and time: " , datetime.datetime.now()
-print "Or like this: " ,datetime.datetime.now().strftime("%y-%m-%d-%H-%M")
-
+print (time.time())
+print (datetime.datetime.now())
+print (datetime.datetime.now().strftime("%y-%m-%d-%H-%M"))
+print (datetime.date.today().strftime("%Y"))
+print (datetime.date.today().strftime("%B"))
+print (datetime.date.today().strftime("%W"))
+print (datetime.date.today().strftime("%w"))
+print (datetime.date.today().strftime("%j"))
+print (datetime.date.today().strftime("%d"))
+print (datetime.date.today().strftime("%A"))
