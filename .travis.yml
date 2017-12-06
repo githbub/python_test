@@ -7,6 +7,8 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
+ allow_failures:
+    - python: nightly
 install:
 - true # use this to skip the install step or add any commands required to install your project dependencies
 
